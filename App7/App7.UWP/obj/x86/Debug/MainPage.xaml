@@ -1,0 +1,38 @@
+﻿<forms:WindowsPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:forms="using:Xamarin.Forms.Platform.UWP"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:Custom="using:Microsoft.UI.Xaml.Controls" 
+    x:Class="App7.UWP.MainPage"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="1235">
+    <ScrollViewer
+    HorizontalScrollBarVisibility="Auto"
+    VerticalScrollBarVisibility="Auto">
+        <Grid Background="FloralWhite" Margin="10,0,11,5"  ScrollViewer.HorizontalScrollBarVisibility="Auto" RenderTransformOrigin="0.4,0.478">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="760*"/>
+                <ColumnDefinition Width="1139*"/>
+            </Grid.ColumnDefinitions>
+            <ListBox x:ConnectionId='2' x:Name="Conversation" BorderBrush="#B5B6B8" BorderThickness="1" Background="White" CornerRadius="20"  Margin="284,75,585,706" Grid.ColumnSpan="20"  ScrollViewer.HorizontalScrollBarVisibility="Auto"                                                 />
+
+            <TextBlock x:ConnectionId='3' Text=" Customer Conversation" FontSize="20" Foreground="Orange"  Grid.Column="2" Padding="330,250,50,50"                                              />
+            <TextBlock x:ConnectionId='4' Text=" Emotion" FontSize="20" Foreground="Orange"  Grid.Column="2" Padding="330,510,50,50"                                              />
+            <ListBox x:ConnectionId='5' x:Name="CustomerConversation" BorderBrush="#B5B6B8"  BorderThickness="1"  Margin="332,285,12,723" Grid.Column="1"/>
+            <ListBox x:ConnectionId='6' x:Name="Emotion" BorderBrush="#B5B6B8"  Margin="331,536,7,587" CornerRadius="15"                                             Grid.Column="1" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+            <TextBox x:ConnectionId='7' x:Name="Solution" HorizontalAlignment="Left" BorderThickness="1"  CornerRadius="15" Margin="300,645,0,0" TextWrapping="Wrap" Text="Solution Is" FontSize="20" VerticalAlignment="Top" Height="135" Width="601" Grid.ColumnSpan="2"/>
+            <TextBlock x:ConnectionId='8'  Text="Agents" FontSize="20"  Foreground="Orange" Padding="40"                                              />
+            <ListView x:ConnectionId='9' Margin="14,80,328,459"  BorderBrush="#B5B6B8"  CornerRadius="20" BorderThickness="3" Background="White"                                              />
+            <Button Content="Transfer"  FontSize="15" Margin="28,801,0,0" CornerRadius="15"  Background="Orange"   VerticalAlignment="Top" Height="50" Width="144" RenderTransformOrigin="0.389,2.192"/>
+            <TextBox HorizontalAlignment="Left" Margin="305,549,0,0" CornerRadius="10" FontFamily="bold" TextWrapping="Wrap" Text="Problem is" VerticalAlignment="Top" Height="86" Width="600" Grid.ColumnSpan="2"/>
+            <Button x:ConnectionId='10' Content="View Summary" Background="Orange" Margin="230,805,0,0" CornerRadius="15" VerticalAlignment="Top" Height="45" Width="180"                       />
+            <Button Content="Problem Statement" Background="Orange" Margin="435,805,0,0" CornerRadius="15" VerticalAlignment="Top" Height="45" Width="180" Grid.ColumnSpan="2"/>
+            <Button Content="Solution" Background="Orange" Margin="48,805,0,0" CornerRadius="15" VerticalAlignment="Top" Height="44" Width="180" Grid.Column="1"/>
+            <Button Content="Record Full Summary" Background="Orange" Margin="268,811,0,0" CornerRadius="15" VerticalAlignment="Top" Height="44" Width="180" Grid.Column="1"/>
+            <ListBox Grid.Column="1"  BorderBrush="#B5B6B8"  Margin="327,80,10,986" CornerRadius="15" />
+            <TextBox Grid.Column="1" BorderBrush="#B5B6B8" BorderThickness="1"  HorizontalAlignment="Left"  CornerRadius="15" Margin="330,660,0,441" TextWrapping="Wrap" Text="Ai Summary" Width="552"  />
+            <Button Grid.Column="1" Content="Stop" Margin="24,27,0,0" CornerRadius="15" Background="Orange" VerticalAlignment="Top" Width="110"/>
+            <Button x:ConnectionId='11' Content="Start" Margin="309,27,0,0" CornerRadius="15" Background="Orange" VerticalAlignment="Top" Width="98"                     />
+        </Grid>
+    </ScrollViewer>
+</forms:WindowsPage>
+

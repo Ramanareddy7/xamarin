@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "dgSpecHash": "oXAF2msBV7P1URBCebczpoQdZW+Ui4uimnSaR26H+anvMG1AwUz90gM6jx8fl8S6jb6XygcMO3n+ZtDjG97qhQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\RamanaReddy\\source\\repos\\App7\\App7\\App7.iOS\\App7.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\microsoft.cognitiveservices.speech\\1.18.0\\microsoft.cognitiveservices.speech.1.18.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\naudio\\2.0.0\\naudio.2.0.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\naudio.asio\\2.0.0\\naudio.asio.2.0.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\naudio.core\\2.0.0\\naudio.core.2.0.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\naudio.midi\\2.0.0\\naudio.midi.2.0.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\naudio.wasapi\\2.0.0\\naudio.wasapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\naudio.waveformrenderer\\1.0.0\\naudio.waveformrenderer.1.0.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\naudio.winforms\\2.0.0\\naudio.winforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\naudio.winmm\\2.0.0\\naudio.winmm.2.0.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\system.drawing.common\\5.0.1\\system.drawing.common.5.0.1.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\RamanaReddy\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package NAudio.WinForms 2.0.0 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package NAudio.WinForms 2.0.0 supports:\r\n  - net472 (.NETFramework,Version=v4.7.2)\r\n  - netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "NAudio.WinForms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package NAudio.WinForms 2.0.0 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package NAudio.WinForms 2.0.0 supports:\r\n  - net472 (.NETFramework,Version=v4.7.2)\r\n  - netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "NAudio.WinForms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package NAudio.WinForms 2.0.0 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package NAudio.WinForms 2.0.0 supports:\r\n  - net472 (.NETFramework,Version=v4.7.2)\r\n  - netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "NAudio.WinForms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package NAudio.WinForms 2.0.0 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package NAudio.WinForms 2.0.0 supports:\r\n  - net472 (.NETFramework,Version=v4.7.2)\r\n  - netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "NAudio.WinForms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}

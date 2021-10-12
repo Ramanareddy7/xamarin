@@ -1,0 +1,4 @@
+cache-path;C:\Users\RamanaReddy\source\repos\App7\Android\obj\Debug\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Users\RamanaReddy\source\repos\App7\Android\obj\Debug\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\RamanaReddy\source\repos\App7\Android\obj\Debug\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;C:\Users\RamanaReddy\source\repos\App7\Android\obj\Debug\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
